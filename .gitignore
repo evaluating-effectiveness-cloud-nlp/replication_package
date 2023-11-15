@@ -1,0 +1,31 @@
+__pycache__
+credentials.py
+.idea
+venv
+google-credentials.json
+europarl
+sample.csv
+state.json
+models/lambda/out
+models/cbow_s300.txt
+models/glove.twitter.27B.100d.txt
+.tmp*/
+desktop.ini
+.ipynb_checkpoints
+/test_scenarios/out/
+**Zone.Identifier
+
+!/outputs/
+/outputs/*
+
+!/outputs/experiment1/
+/outputs/experiment1/*
+!/outputs/experiment1/size99_12-20-2022 20_46_34
+
+!/outputs/experiment1/
+/outputs/experiment1/*
+!/outputs/experiment1/size99_07-12-2022 09_34_29
+
+!/outputs/experiment2/
+/outputs/experiment2/*
+!/outputs/experiment2/size100_12-21-2022 20_53_00

@@ -1,0 +1,72 @@
+\begin{table}[h]
+\centering
+\caption{Results of Amazon provider}
+\label{table:results_Amazon}
+\tiny 
+ \begin{tabular}{rrr|rrr}
+\toprule
+Noise Algorithm & Noise Level (\%) & F-Measure & Noise Algorithm & Noise Level (\%) & F-Measure \\
+\midrule
+Keyboard & 0 & 0.71 & Antonym & 0 & 0.71 \\
+Keyboard & 10 & 0.47 & Antonym & 10 & 0.60 \\
+Keyboard & 20 & 0.45 & Antonym & 20 & 0.58 \\
+Keyboard & 30 & 0.24 & Antonym & 30 & 0.60 \\
+Keyboard & 40 & 0.25 & Antonym & 40 & 0.59 \\
+Keyboard & 50 & 0.23 & Antonym & 50 & 0.58 \\
+Keyboard & 60 & 0.19 & Antonym & 60 & 0.61 \\
+Keyboard & 70 & 0.17 & Antonym & 70 & 0.55 \\
+Keyboard & 80 & 0.16 & Antonym & 80 & 0.58 \\
+Keyboard & 90 & 0.16 & Antonym & 90 & 0.59 \\
+OCR & 0 & 0.71 & Synonym & 0 & 0.71 \\
+OCR & 10 & 0.58 & Synonym & 10 & 0.68 \\
+OCR & 20 & 0.35 & Synonym & 20 & 0.67 \\
+OCR & 30 & 0.26 & Synonym & 30 & 0.70 \\
+OCR & 40 & 0.24 & Synonym & 40 & 0.68 \\
+OCR & 50 & 0.28 & Synonym & 50 & 0.60 \\
+OCR & 60 & 0.26 & Synonym & 60 & 0.61 \\
+OCR & 70 & 0.28 & Synonym & 70 & 0.61 \\
+OCR & 80 & 0.26 & Synonym & 80 & 0.58 \\
+OCR & 90 & 0.25 & Synonym & 90 & 0.59 \\
+RandomCharReplace & 0 & 0.71 & Spelling & 0 & 0.71 \\
+RandomCharReplace & 10 & 0.54 & Spelling & 10 & 0.69 \\
+RandomCharReplace & 20 & 0.42 & Spelling & 20 & 0.64 \\
+RandomCharReplace & 30 & 0.27 & Spelling & 30 & 0.56 \\
+RandomCharReplace & 40 & 0.18 & Spelling & 40 & 0.61 \\
+RandomCharReplace & 50 & 0.17 & Spelling & 50 & 0.50 \\
+RandomCharReplace & 60 & 0.17 & Spelling & 60 & 0.58 \\
+RandomCharReplace & 70 & 0.17 & Spelling & 70 & 0.51 \\
+RandomCharReplace & 80 & 0.17 & Spelling & 80 & 0.53 \\
+RandomCharReplace & 90 & 0.17 & Spelling & 90 & 0.48 \\
+CharSwap & 0 & 0.71 & TfIdfWord & 0 & 0.71 \\
+CharSwap & 10 & 0.59 & TfIdfWord & 10 & 0.63 \\
+CharSwap & 20 & 0.52 & TfIdfWord & 20 & 0.57 \\
+CharSwap & 30 & 0.48 & TfIdfWord & 30 & 0.49 \\
+CharSwap & 40 & 0.34 & TfIdfWord & 40 & 0.44 \\
+CharSwap & 50 & 0.48 & TfIdfWord & 50 & 0.35 \\
+CharSwap & 60 & 0.34 & TfIdfWord & 60 & 0.35 \\
+CharSwap & 70 & 0.27 & TfIdfWord & 70 & 0.23 \\
+CharSwap & 80 & 0.33 & TfIdfWord & 80 & 0.25 \\
+CharSwap & 90 & 0.20 & TfIdfWord & 90 & 0.31 \\
+WordSwap & 0 & 0.71 & WordEmbeddings & 0 & 0.71 \\
+WordSwap & 10 & 0.68 & WordEmbeddings & 10 & 0.66 \\
+WordSwap & 20 & 0.67 & WordEmbeddings & 20 & 0.65 \\
+WordSwap & 30 & 0.69 & WordEmbeddings & 30 & 0.60 \\
+WordSwap & 40 & 0.68 & WordEmbeddings & 40 & 0.60 \\
+WordSwap & 50 & 0.67 & WordEmbeddings & 50 & 0.53 \\
+WordSwap & 60 & 0.71 & WordEmbeddings & 60 & 0.58 \\
+WordSwap & 70 & 0.70 & WordEmbeddings & 70 & 0.50 \\
+WordSwap & 80 & 0.68 & WordEmbeddings & 80 & 0.49 \\
+WordSwap & 90 & 0.71 & WordEmbeddings & 90 & 0.47 \\
+WordSplit & 0 & 0.71 & ContextualWordEmbs & 0 & 0.71 \\
+WordSplit & 10 & 0.62 & ContextualWordEmbs & 10 & 0.66 \\
+WordSplit & 20 & 0.57 & ContextualWordEmbs & 20 & 0.56 \\
+WordSplit & 30 & 0.55 & ContextualWordEmbs & 30 & 0.42 \\
+WordSplit & 40 & 0.46 & ContextualWordEmbs & 40 & 0.50 \\
+WordSplit & 50 & 0.43 & ContextualWordEmbs & 50 & 0.40 \\
+WordSplit & 60 & 0.47 & ContextualWordEmbs & 60 & 0.41 \\
+WordSplit & 70 & 0.39 & ContextualWordEmbs & 70 & 0.39 \\
+WordSplit & 80 & 0.41 & ContextualWordEmbs & 80 & 0.38 \\
+WordSplit & 90 & 0.44 & ContextualWordEmbs & 90 & 0.37 \\
+\bottomrule
+\end{tabular}
+\end{table}
